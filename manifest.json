@@ -1,0 +1,21 @@
+{
+  "name": "AsadoPro - Gestión de Carnes Asadas",
+  "short_name": "AsadoPro",
+  "description": "Sistema de gestión para carnes asadas y parrilladas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/asadopro/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/seed/asadopro/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
