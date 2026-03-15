@@ -1,0 +1,329 @@
+/* NC Technology Solutions LLC - Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #020617;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e40af;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Selection */
+::selection {
+  background: rgba(37, 99, 235, 0.4);
+  color: #fff;
+}
+
+/* Network canvas */
+#network-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Glass card */
+.glass-card {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.glass-card-light {
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(59, 130, 246, 0.08);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #0ea5e9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-white {
+  background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow effects */
+.glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.15), 0 0 60px rgba(59, 130, 246, 0.05);
+}
+
+.glow-blue-strong {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.25), 0 0 80px rgba(59, 130, 246, 0.1);
+}
+
+/* Service card hover glow */
+.service-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.service-card:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.1), 0 8px 32px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+}
+.service-card:hover .service-icon {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+/* Button styles */
+.btn-primary {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: left 0.5s;
+}
+.btn-primary:hover::before {
+  left: 100%;
+}
+.btn-primary:hover {
+  box-shadow: 0 0 30px rgba(37, 99, 235, 0.4), 0 4px 20px rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-outline:hover {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: rgba(59, 130, 246, 0.6);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Navbar */
+.navbar-solid {
+  background: rgba(2, 6, 23, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+/* Gradient divider */
+.gradient-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.3), transparent);
+}
+
+/* Tech badge */
+.tech-badge {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  transition: all 0.3s ease;
+}
+.tech-badge:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+  background: rgba(30, 41, 59, 0.6);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Process step connector line */
+.process-line {
+  background: linear-gradient(180deg, #2563eb 0%, rgba(37, 99, 235, 0.2) 100%);
+}
+
+/* Form input */
+.form-input {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  transition: all 0.3s ease;
+}
+.form-input:focus {
+  outline: none;
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.1);
+}
+
+/* WhatsApp button pulse */
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+}
+.whatsapp-pulse {
+  animation: pulse-green 2s infinite;
+}
+
+/* Counter animation */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Subtle rotate */
+@keyframes slow-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Grid pattern overlay */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Section background gradients */
+.section-gradient-1 {
+  background: radial-gradient(ellipse at top right, rgba(37, 99, 235, 0.08) 0%, transparent 60%);
+}
+.section-gradient-2 {
+  background: radial-gradient(ellipse at bottom left, rgba(14, 165, 233, 0.06) 0%, transparent 60%);
+}
+
+/* ================================
+   LIGHT MODE OVERRIDES
+   ================================ */
+
+html.light body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
+html.light ::selection {
+  background: rgba(37, 99, 235, 0.25);
+  color: #0f172a;
+}
+
+html.light .glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  border-color: rgba(148, 163, 184, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+html.light .glass-card-light {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: rgba(148, 163, 184, 0.15);
+}
+
+html.light .navbar-solid {
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom-color: rgba(148, 163, 184, 0.2);
+}
+
+html.light .service-card:hover {
+  border-color: rgba(59, 130, 246, 0.25);
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.08), 0 8px 32px rgba(0, 0, 0, 0.06);
+}
+
+html.light .tech-badge {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: rgba(148, 163, 184, 0.2);
+}
+html.light .tech-badge:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  background: rgba(239, 246, 255, 0.8);
+}
+
+html.light .form-input {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: rgba(148, 163, 184, 0.3);
+  color: #0f172a;
+}
+html.light .form-input:focus {
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.08);
+}
+html.light .form-input::placeholder {
+  color: #94a3b8;
+}
+
+html.light .section-gradient-1 {
+  background: radial-gradient(ellipse at top right, rgba(37, 99, 235, 0.04) 0%, transparent 60%);
+}
+html.light .section-gradient-2 {
+  background: radial-gradient(ellipse at bottom left, rgba(14, 165, 233, 0.03) 0%, transparent 60%);
+}
+
+html.light .glow-blue {
+  box-shadow: 0 1px 4px rgba(59, 130, 246, 0.1);
+}
+
+html.light .btn-outline {
+  border-color: rgba(59, 130, 246, 0.35);
+}
+html.light .btn-outline:hover {
+  background: rgba(59, 130, 246, 0.06);
+}
+
+html.light .gradient-divider {
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.2), transparent);
+}
+
+html.light .grid-pattern {
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.04) 1px, transparent 1px);
+}
+
+/* Portfolio image overlay */
+.portfolio-overlay {
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+}

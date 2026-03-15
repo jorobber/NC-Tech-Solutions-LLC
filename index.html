@@ -1,49 +1,60 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AsadoPro - Gestión de Carnes Asadas</title>
+    <title>NC Technology Solutions LLC | Enterprise IT Infrastructure & Network Services</title>
+    <meta name="description" content="NC Technology Solutions LLC provides enterprise networking, server support, Active Directory, Cisco & Fortinet configuration, virtualization, and structured cabling services.">
+    <meta name="keywords" content="enterprise networking, server support, Active Directory, Cisco, Fortinet, virtualization, structured cabling, IT infrastructure">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nctechnologysolutions.com">
+    <meta property="og:title" content="NC Technology Solutions LLC | Enterprise IT Infrastructure">
+    <meta property="og:description" content="Professional enterprise networking, server support, and IT infrastructure services.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f9fafb;
-        }
-        @keyframes shimmer {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
-    </style>
-<script type="importmap">
-{
-  "imports": {
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
-    "@google/genai": "https://esm.sh/@google/genai@^1.39.0",
-    "recharts": "https://esm.sh/recharts@^3.7.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react": "https://esm.sh/react@^19.2.4"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#ea580c">
     <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
-                    .then(reg => console.log('Service Worker registrado', reg))
-                    .catch(err => console.log('Error al registrar Service Worker', err));
-            });
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: '#eff6ff',
+                100: '#dbeafe',
+                200: '#bfdbfe',
+                300: '#93c5fd',
+                400: '#60a5fa',
+                500: '#3b82f6',
+                600: '#2563eb',
+                700: '#1d4ed8',
+                800: '#1e40af',
+                900: '#1e3a8a',
+                950: '#172554',
+              },
+              accent: {
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                600: '#0284c7',
+              },
+              dark: {
+                800: '#0f172a',
+                900: '#020617',
+                950: '#010313',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            },
+          },
+        },
+      }
     </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <meta name="theme-color" content="#1e40af">
 </head>
-<body>
+<body class="bg-dark-950 text-white antialiased">
     <div id="root"></div>
-<script type="module" src="/index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
