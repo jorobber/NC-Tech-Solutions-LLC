@@ -15,7 +15,7 @@ const WhatsAppButton: React.FC = () => {
     <AnimatePresence>
       {visible && (
         <motion.a
-          href="https://wa.me/15550000000"
+          href="https://wa.me/13468148087"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0.8 }}

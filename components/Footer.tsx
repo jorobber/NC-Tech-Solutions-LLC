@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
             <h4 className={`text-xs font-semibold tracking-wider uppercase mb-4 ${headColor}`}>{f.contactTitle}</h4>
             <ul className={`space-y-2.5 text-sm ${linkColor}`}>
               <li><a href="mailto:info@nctechnologysolutions.com" className="hover:text-blue-400 transition-colors">info@nctechnologysolutions.com</a></li>
-              <li><a href="tel:+15550000000" className="hover:text-blue-400 transition-colors">+1 (555) 000-0000</a></li>
+              <li><a href="tel:+13468148087" className="hover:text-blue-400 transition-colors">+1 (346) 814-8087</a></li>
               <li>{t.contact.info.hours}</li>
               <li>{t.contact.info.emergency}</li>
             </ul>
