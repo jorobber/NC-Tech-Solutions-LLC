@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
           >
             <div className="glass-card rounded-2xl p-6 space-y-5">
               {[
-                { icon: Mail, label: c.info.emailLabel, content: <a href="mailto:info@nctechnologysolutions.com" className={`text-sm hover:text-blue-400 transition-colors ${headingColor}`}>info@nctechnologysolutions.com</a> },
+                { icon: Mail, label: c.info.emailLabel, content: <a href="mailto:info@nctechsolutionsllc.com" className={`text-sm hover:text-blue-400 transition-colors ${headingColor}`}>info@nctechsolutionsllc.com</a> },
                 { icon: Phone, label: c.info.phoneLabel, content: <a href="tel:+13468148087" className={`text-sm hover:text-blue-400 transition-colors ${headingColor}`}>+1 (346) 814-8087</a> },
                 { icon: Clock, label: c.info.hoursLabel, content: <><p className={`text-sm ${headingColor}`}>{c.info.hours}</p><p className={`text-sm ${subColor}`}>{c.info.emergency}</p></> },
                 { icon: MapPin, label: c.info.locationLabel, content: <p className={`text-sm ${headingColor}`}>{c.info.location}</p> },
