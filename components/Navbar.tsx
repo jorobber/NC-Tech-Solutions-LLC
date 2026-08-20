@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className={`text-lg font-medium ${textColor} ${textHover} transition-colors duration-200 relative group`}
+                className={`text-sm font-medium ${textColor} ${textHover} transition-colors duration-200 relative group`}
               >
                 {link.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-blue-400 transition-all duration-300 group-hover:w-full" />
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
             {/* Language toggle */}
             <button
               onClick={toggleLanguage}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border ${toggleBorder} text-base font-semibold ${textColor} ${textHover} transition-all duration-200 hover:border-blue-500/30`}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border ${toggleBorder} text-xs font-semibold ${textColor} ${textHover} transition-all duration-200 hover:border-blue-500/30`}
               aria-label="Toggle language"
             >
               <Languages className="w-3.5 h-3.5" />
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, '#contact')}
-              className="btn-primary text-lg font-semibold px-5 py-2.5 rounded-lg text-white"
+              className="btn-primary text-sm font-semibold px-5 py-2.5 rounded-lg text-white"
             >
               {t.nav.getQuote}
             </a>
@@ -104,7 +104,7 @@ const Navbar: React.FC = () => {
           <div className="flex lg:hidden items-center gap-2">
             <button
               onClick={toggleLanguage}
-              className={`px-2.5 py-1.5 rounded-lg text-base font-semibold ${textColor} border ${toggleBorder}`}
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold ${textColor} border ${toggleBorder}`}
               aria-label="Toggle language"
             >
               {language === 'en' ? 'ES' : 'EN'}
@@ -143,7 +143,7 @@ const Navbar: React.FC = () => {
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`block px-4 py-3 text-lg font-medium rounded-lg transition-all duration-200 ${
+                  className={`block px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 ${
                     isLight ? 'text-slate-600 hover:text-slate-900 hover:bg-slate-100' : 'text-slate-300 hover:text-white hover:bg-white/5'
                   }`}
                 >
@@ -154,7 +154,7 @@ const Navbar: React.FC = () => {
                 <a
                   href="#contact"
                   onClick={(e) => handleNavClick(e, '#contact')}
-                  className="btn-primary block text-center text-lg font-semibold px-5 py-3 rounded-lg text-white"
+                  className="btn-primary block text-center text-sm font-semibold px-5 py-3 rounded-lg text-white"
                 >
                   {t.nav.getQuote}
                 </a>
