@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="group">
-            <Logo size="lg" theme={theme} />
+            <Logo size="lg" theme={theme} className="scale-[1.3] md:scale-150 origin-left -translate-y-1" />
           </a>
 
           {/* Desktop Links */}
