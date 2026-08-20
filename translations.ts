@@ -12,7 +12,7 @@ export const translations = {
       getQuote: 'Get a Quote',
     },
     hero: {
-      badge: 'Enterprise IT Infrastructure Partner',
+      badge: 'Your Houston IT team — always has your back.',
       headline1: 'Engineered Network',
       headline2: 'Infrastructure Solutions',
       subheadline:
@@ -314,7 +314,7 @@ export const translations = {
       getQuote: 'Cotizar',
     },
     hero: {
-      badge: 'Socio en Infraestructura IT Empresarial',
+      badge: 'Tu equipo de tecnología en Houston, siempre respaldándote.',
       headline1: 'Soluciones de Redes',
       headline2: 'e Infraestructura',
       subheadline:
