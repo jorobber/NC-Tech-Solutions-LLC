@@ -3,6 +3,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
 import Technologies from './components/Technologies';
@@ -23,6 +24,7 @@ const App: React.FC = () => {
           <Navbar />
           <main>
             <Hero />
+            <AboutUs />
             <Services />
             <WhyChooseUs />
             <Technologies />

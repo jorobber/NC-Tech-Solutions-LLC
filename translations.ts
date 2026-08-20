@@ -21,6 +21,10 @@ export const translations = {
       cta1: 'Request a Consultation',
       cta2: 'Contact Us',
     },
+    aboutUsSection: {
+      title: 'About Us',
+      content: "At NC Technology Solutions, we've spent 18+ years keeping businesses' technology running smoothly. We work with dental clinics, accounting offices, and small businesses across Houston that want to feel backed by experts — not lost in jargon. We speak your language, in English and Spanish, and explain everything clearly.",
+    },
     services: {
       label: 'What We Do',
       title: 'Enterprise IT Services',
@@ -323,6 +327,10 @@ export const translations = {
         'NC Technology Solutions LLC ofrece soporte IT, redes, seguridad y telefonía para clínicas, oficinas y pequeños negocios — bilingüe y sin complicaciones.',
       cta1: 'Solicitar Consulta',
       cta2: 'Contactenos',
+    },
+    aboutUsSection: {
+      title: 'Acerca de Nosotros',
+      content: 'En NC Technology Solutions llevamos más de 18 años manteniendo la tecnología de los negocios funcionando sin sobresaltos. Trabajamos con clínicas dentales, oficinas de contabilidad y pequeñas empresas en Houston que quieren sentirse respaldadas por expertos — no perdidas en tecnicismos. Hablamos tu idioma, en inglés y en español, y te explicamos todo claro.',
     },
     services: {
       label: 'Nuestros Servicios',
