@@ -57,7 +57,9 @@ const Services: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-50px' }}
                 transition={{ duration: 0.5, delay: index * 0.07 }}
-                className="service-card glass-card rounded-2xl p-7 group cursor-default"
+                className={`service-card glass-card rounded-2xl p-7 group cursor-default ${
+                  index === 6 ? 'sm:col-span-2 lg:col-span-1 lg:col-start-2 sm:mx-auto sm:max-w-md lg:max-w-none lg:mx-0 w-full' : ''
+                }`}
               >
                 <div className="service-icon w-12 h-12 rounded-xl bg-blue-600/10 border border-blue-500/20 flex items-center justify-center mb-5 transition-all duration-300 group-hover:bg-blue-600/20">
                   <Icon className="w-6 h-6 text-blue-400" />
