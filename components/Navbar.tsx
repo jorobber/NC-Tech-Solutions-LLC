@@ -12,6 +12,7 @@ const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
 
   const navLinks = [
+    { label: t.nav.aboutUs, href: '#about-us' },
     { label: t.nav.services, href: '#services' },
     { label: t.nav.whyUs, href: '#why-us' },
     { label: t.nav.technologies, href: '#technologies' },

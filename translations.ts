@@ -3,6 +3,7 @@ export type Language = 'en' | 'es';
 export const translations = {
   en: {
     nav: {
+      aboutUs: 'About Us',
       services: 'Services',
       whyUs: 'Why Us',
       technologies: 'Technologies',
@@ -305,6 +306,7 @@ export const translations = {
   },
   es: {
     nav: {
+      aboutUs: 'Acerca de Nosotros',
       services: 'Servicios',
       whyUs: 'Ventajas',
       technologies: 'Tecnologias',
