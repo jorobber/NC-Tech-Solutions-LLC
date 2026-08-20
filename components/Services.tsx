@@ -1,21 +1,18 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import {
-  Network,
-  Server,
-  ShieldCheck,
-  Cable,
-  Layers,
-  Router,
-  Wifi,
   Settings,
-  Globe,
+  ShieldCheck,
+  Wifi,
+  Phone,
   Camera,
+  Laptop,
+  Truck,
 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
 
-const icons = [Network, Server, ShieldCheck, Cable, Layers, Router, Globe, Wifi, Camera, Settings];
+const icons = [Settings, ShieldCheck, Wifi, Phone, Camera, Laptop, Truck];
 
 const Services: React.FC = () => {
   const { t } = useLanguage();

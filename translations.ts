@@ -59,54 +59,32 @@ export const translations = {
         'From network design to ongoing support, we deliver the infrastructure your business needs to operate with confidence.',
       items: [
         {
-          title: 'Enterprise Networking',
-          description:
-            'Scalable LAN/WAN architecture designed for high availability, low latency, and seamless business operations across your organization.',
+          title: 'Managed IT support',
+          description: 'Your complete IT department, without hiring one. We handle daily support, your computers, email, and users, so you can focus on your business. (Includes: tech support, computers, Microsoft 365, Active Directory, help desk)',
         },
         {
-          title: 'Server Support',
-          description:
-            'Comprehensive server deployment, monitoring, and maintenance for Windows Server environments ensuring maximum uptime and performance.',
+          title: 'Security & backup',
+          description: "Protect your patients' and clients' data. Automatic backups, managed security, and HIPAA compliance so a problem doesn't turn into a nightmare. (Includes: backup, antivirus/managed security, HIPAA for dental, cyber insurance ready)",
         },
         {
-          title: 'Active Directory',
-          description:
-            'Expert AD design, Group Policy management, domain migrations, and identity services that keep your organization secure and efficient.',
+          title: 'Networks & WiFi',
+          description: "Internet and networks that don't go down. We design and maintain your network, your WiFi, and your secure connections so everything runs fast and without interruptions. (Includes: networks, VPNs, firewall/FortiGate)",
         },
         {
-          title: 'Structured Cabling',
-          description:
-            'Professional Cat6/Cat6A cabling infrastructure, patch panel installation, and cable management for reliable physical connectivity.',
+          title: 'Business phones',
+          description: 'A professional phone system tailored to you. We install and manage IP telephony so your business sounds big and you never miss a call. (Includes: Grandstream IP telephony)',
         },
         {
-          title: 'Server Virtualization',
-          description:
-            'VMware vSphere deployments that maximize hardware utilization, simplify management, and enable rapid disaster recovery.',
+          title: 'Cameras & security',
+          description: 'Keep an eye on your location from your phone. We install cameras and recording systems so you can see your business wherever you are. (Includes: cameras, NVR, recording systems)',
         },
         {
-          title: 'Cisco & Fortinet Switching',
-          description:
-            'VLAN configuration, port security, spanning tree optimization, and enterprise switch deployments on Cisco and Fortinet platforms.',
+          title: 'Industry software',
+          description: 'We know the software you use. We support key programs in your industry — Dentrix and SoftDent in clinics, or billing and fleet systems in transportation — so they work flawlessly. (Includes: Dentrix, SoftDent, Verizon Connect management, and other specialized software)',
         },
         {
-          title: 'Cisco & Fortinet Routing',
-          description:
-            'Advanced routing protocols, firewall policies, VPN tunnels, and perimeter security across Cisco and Fortinet router/firewall ecosystems.',
-        },
-        {
-          title: 'Wireless Access Points',
-          description:
-            'Enterprise Wi-Fi site surveys, controller-based deployments, and seamless roaming configurations for complete wireless coverage.',
-        },
-        {
-          title: 'Security Camera Systems',
-          description:
-            'Professional IP camera installation, NVR/DVR configuration, remote monitoring setup, and surveillance infrastructure for business security.',
-        },
-        {
-          title: 'IT Support & Infrastructure',
-          description:
-            'End-to-end IT infrastructure management, proactive monitoring, technical support, and strategic consulting for growing businesses.',
+          title: 'Transportation solutions',
+          description: 'Tools built for carriers. Driver billing, fuel control, units, and maintenance in one place, plus all your IT support — bilingual and tailored to your fleet. (Includes: operations/billing app, Verizon Connect, networks, and IT support for transportation)',
         },
       ],
     },
@@ -393,54 +371,32 @@ export const translations = {
         'Desde el diseno de redes hasta el soporte continuo, entregamos la infraestructura que su negocio necesita para operar con confianza.',
       items: [
         {
-          title: 'Redes Empresariales',
-          description:
-            'Arquitectura LAN/WAN escalable disenada para alta disponibilidad, baja latencia y operaciones fluidas en toda su organizacion.',
+          title: 'Soporte IT gestionado',
+          description: 'Tu departamento de IT completo, sin contratar uno. Nos encargamos del soporte diario, tus computadoras, el correo y los usuarios, para que tú te dediques a tu negocio. (Incluye: soporte técnico, computadoras, Microsoft 365, Active Directory, mesa de ayuda)',
         },
         {
-          title: 'Soporte de Servidores',
-          description:
-            'Implementacion, monitoreo y mantenimiento integral de servidores Windows Server garantizando maximo tiempo de actividad y rendimiento.',
+          title: 'Ciberseguridad y respaldo',
+          description: 'Protege los datos de tus pacientes y clientes. Respaldos automáticos, seguridad gestionada y cumplimiento HIPAA para que un problema no se vuelva una pesadilla. (Incluye: backup, antivirus/seguridad gestionada, HIPAA para dental, listo para cyber insurance)',
         },
         {
-          title: 'Active Directory',
-          description:
-            'Diseno experto de AD, gestion de Politicas de Grupo, migraciones de dominio y servicios de identidad para mantener su organizacion segura.',
+          title: 'Redes y WiFi',
+          description: 'Internet y red que no se caen. Diseñamos y mantenemos tu red, tu WiFi y tus conexiones seguras para que todo funcione rápido y sin interrupciones. (Incluye: redes, VPNs, firewall/FortiGate)',
         },
         {
-          title: 'Cableado Estructurado',
-          description:
-            'Infraestructura profesional de cableado Cat6/Cat6A, instalacion de patch panels y gestion de cables para conectividad fisica confiable.',
+          title: 'Telefonía para tu negocio',
+          description: 'Un sistema telefónico profesional a tu medida. Instalamos y administramos telefonía IP para que tu negocio suene grande y nunca pierdas una llamada. (Incluye: telefonía IP Grandstream)',
         },
         {
-          title: 'Virtualizacion de Servidores',
-          description:
-            'Implementaciones de VMware vSphere que maximizan la utilizacion de hardware, simplifican la gestion y permiten recuperacion rapida ante desastres.',
+          title: 'Cámaras y seguridad',
+          description: 'Vigila tu local desde tu teléfono. Instalamos cámaras y sistemas de grabación para que veas tu negocio estés donde estés. (Incluye: cámaras, NVR, sistemas de grabación)',
         },
         {
-          title: 'Switching Cisco y Fortinet',
-          description:
-            'Configuracion de VLANs, seguridad de puertos, optimizacion de spanning tree e implementaciones de switches empresariales en plataformas Cisco y Fortinet.',
+          title: 'IT para tu industria',
+          description: 'Conocemos el software que usas. Damos soporte a los programas clave de tu industria — Dentrix y SoftDent en clínicas, o sistemas de facturación y flota en transporte — para que trabajen sin fallas. (Incluye: gestión de Dentrix, SoftDent, Verizon Connect y otro software especializado)',
         },
         {
-          title: 'Routing Cisco y Fortinet',
-          description:
-            'Protocolos de enrutamiento avanzados, politicas de firewall, tuneles VPN y seguridad perimetral en ecosistemas de routers/firewalls Cisco y Fortinet.',
-        },
-        {
-          title: 'Puntos de Acceso Inalambrico',
-          description:
-            'Site surveys de Wi-Fi empresarial, implementaciones basadas en controladores y configuraciones de roaming para cobertura inalambrica completa.',
-        },
-        {
-          title: 'Camaras de Seguridad',
-          description:
-            'Instalacion profesional de camaras IP, configuracion de NVR/DVR, monitoreo remoto e infraestructura de vigilancia para seguridad empresarial.',
-        },
-        {
-          title: 'Soporte IT e Infraestructura',
-          description:
-            'Gestion integral de infraestructura IT, monitoreo proactivo, soporte tecnico y consultoria estrategica para empresas en crecimiento.',
+          title: 'Soluciones para transporte',
+          description: 'Herramientas hechas para carriers. Facturación de drivers, control de diesel, unidades y mantenimiento en un solo lugar, más todo tu soporte IT — bilingüe y a la medida de tu flota. (Incluye: app de operaciones/facturación, Verizon Connect, redes y soporte para transporte)',
         },
       ],
     },
