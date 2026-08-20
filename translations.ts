@@ -4,6 +4,7 @@ export const translations = {
   en: {
     nav: {
       aboutUs: 'About Us',
+      clients: 'Our Clients',
       services: 'Services',
       whyUs: 'Why Us',
       technologies: 'Technologies',
@@ -24,6 +25,32 @@ export const translations = {
     aboutUsSection: {
       title: 'About Us',
       content: "At NC Technology Solutions, we've spent 18+ years keeping businesses' technology running smoothly. We work with dental clinics, accounting offices, and small businesses across Houston that want to feel backed by experts — not lost in jargon. We speak your language, in English and Spanish, and explain everything clearly.",
+    },
+    clientsSection: {
+      title: 'Who We Serve',
+      subtitle: 'This is for you if...',
+      items: [
+        {
+          title: 'Dental Clinics',
+          description: 'We protect your patient data and keep your operations (and dental software) running smoothly.',
+          image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+          title: 'Accounting Offices',
+          description: "Security and backups for your clients' financial information, especially during tax season.",
+          image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+          title: 'Transportation Companies',
+          description: 'We keep your operations connected: billing, fleet control, fuel, and maintenance, plus day-to-day IT support.',
+          image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+          title: 'Small Businesses',
+          description: 'All your technology support in one place, without the need to hire an in-house IT department.',
+          image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80',
+        },
+      ],
     },
     services: {
       label: 'What We Do',
@@ -311,6 +338,7 @@ export const translations = {
   es: {
     nav: {
       aboutUs: 'Acerca de Nosotros',
+      clients: 'Nuestros Clientes',
       services: 'Servicios',
       whyUs: 'Ventajas',
       technologies: 'Tecnologias',
@@ -331,6 +359,32 @@ export const translations = {
     aboutUsSection: {
       title: 'Acerca de Nosotros',
       content: 'En NC Technology Solutions llevamos más de 18 años manteniendo la tecnología de los negocios funcionando sin sobresaltos. Trabajamos con clínicas dentales, oficinas de contabilidad y pequeñas empresas en Houston que quieren sentirse respaldadas por expertos — no perdidas en tecnicismos. Hablamos tu idioma, en inglés y en español, y te explicamos todo claro.',
+    },
+    clientsSection: {
+      title: 'Nuestros Clientes',
+      subtitle: 'Esto es para mí:',
+      items: [
+        {
+          title: 'Clínicas dentales',
+          description: 'Protegemos los datos de tus pacientes y mantenemos tu operación (y tu software dental) funcionando.',
+          image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+          title: 'Oficinas de contabilidad',
+          description: 'Seguridad y respaldo para la información financiera de tus clientes, sobre todo en temporada alta.',
+          image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+          title: 'Empresas de transporte',
+          description: 'Mantenemos tu operación conectada: facturación, control de unidades, diesel y mantenimiento, más el soporte IT del día a día.',
+          image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80',
+        },
+        {
+          title: 'Pequeños negocios',
+          description: 'Todo tu soporte de tecnología en un solo lugar, sin contratar un departamento de IT.',
+          image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80',
+        },
+      ],
     },
     services: {
       label: 'Nuestros Servicios',

@@ -4,6 +4,7 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
+import Clients from './components/Clients';
 import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
 import Technologies from './components/Technologies';
@@ -25,6 +26,7 @@ const App: React.FC = () => {
           <main>
             <Hero />
             <AboutUs />
+            <Clients />
             <Services />
             <WhyChooseUs />
             <Technologies />
