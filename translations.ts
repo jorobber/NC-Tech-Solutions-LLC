@@ -14,9 +14,9 @@ export const translations = {
       getQuote: 'Get a Quote',
     },
     hero: {
-      badge: 'Your Houston IT team — always has your back.',
-      headline1: 'Engineered Network',
-      headline2: 'Infrastructure Solutions',
+      badge: 'Engineered Network Infrastructure Solutions',
+      headline1: 'Your Houston IT team —',
+      headline2: 'always has your back.',
       subheadline:
         'NC Technology Solutions LLC delivers IT support, networks, security, and phones for clinics, offices, and small businesses — bilingual and hassle-free.',
       cta1: 'Request a Consultation',
@@ -326,9 +326,9 @@ export const translations = {
       getQuote: 'Cotizar',
     },
     hero: {
-      badge: 'Tu equipo de tecnología en Houston, siempre respaldándote.',
-      headline1: 'Soluciones de Redes',
-      headline2: 'e Infraestructura',
+      badge: 'Soluciones de Redes e Infraestructura',
+      headline1: 'Tu equipo de tecnología en Houston,',
+      headline2: 'siempre respaldándote.',
       subheadline:
         'NC Technology Solutions LLC ofrece soporte IT, redes, seguridad y telefonía para clínicas, oficinas y pequeños negocios — bilingüe y sin complicaciones.',
       cta1: 'Solicitar Consulta',
