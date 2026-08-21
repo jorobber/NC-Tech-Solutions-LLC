@@ -14,8 +14,8 @@ export const translations = {
       getQuote: 'Get a Quote',
     },
     hero: {
-      badge: 'Engineered Network Infrastructure Solutions',
-      headline1: 'Your Houston IT team —',
+      badge: 'Engineered Network -Infrastructure Solutions',
+      headline1: 'Your Houston IT team,',
       headline2: 'always has your back.',
       subheadline:
         'NC Technology Solutions LLC delivers IT support, networks, security, and phones for clinics, offices, and small businesses — bilingual and hassle-free.',
