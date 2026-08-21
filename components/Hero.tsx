@@ -39,19 +39,21 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
-            className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border mb-8 ${
-              theme === 'dark' ? 'border-blue-500/20 bg-blue-500/5' : 'border-blue-300/40 bg-blue-50'
-            }`}
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-            <span className={`text-xs font-medium tracking-wide uppercase ${
-              theme === 'dark' ? 'text-blue-300' : 'text-blue-600'
-            }`}>{h.badge}</span>
-          </motion.div>
+          {h.badge && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border mb-8 ${
+                theme === 'dark' ? 'border-blue-500/20 bg-blue-500/5' : 'border-blue-300/40 bg-blue-50'
+              }`}
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
+              <span className={`text-xs font-medium tracking-wide uppercase ${
+                theme === 'dark' ? 'text-blue-300' : 'text-blue-600'
+              }`}>{h.badge}</span>
+            </motion.div>
+          )}
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
             <span className={theme === 'dark' ? 'text-white' : 'text-slate-900'}>{h.headline1}</span>
