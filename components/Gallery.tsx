@@ -34,7 +34,7 @@ const Gallery: React.FC = () => {
   const p = t.portfolio;
 
   return (
-    <section id="portfolio" className="relative py-24 sm:py-32 section-gradient-1">
+    <div className="relative pt-24 sm:pt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -89,7 +89,7 @@ const Gallery: React.FC = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

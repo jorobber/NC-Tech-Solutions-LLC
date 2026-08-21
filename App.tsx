@@ -9,7 +9,6 @@ import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
 import Technologies from './components/Technologies';
 import Process from './components/Process';
-import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
 import Contact from './components/Contact';
@@ -29,7 +28,6 @@ const App: React.FC = () => {
             <Services />
             {/* <WhyChooseUs /> */}
             <Process />
-            <Gallery />
             <Testimonials />
             <CTA />
             <Technologies />

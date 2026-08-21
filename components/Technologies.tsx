@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
+import Gallery from './Gallery';
 
 const technologies = [
   { name: 'Cisco', icon: Network, category: 'Networking' },
@@ -80,6 +81,7 @@ const Technologies: React.FC = () => {
           ))}
         </div>
       </div>
+      <Gallery />
     </section>
   );
 };

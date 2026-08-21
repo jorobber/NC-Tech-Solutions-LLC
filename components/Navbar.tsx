@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     { label: t.nav.services, href: '#services' },
     // { label: t.nav.whyUs, href: '#why-us' },
     { label: t.nav.process, href: '#process' },
-    { label: t.nav.portfolio, href: '#portfolio' },
+    // { label: t.nav.portfolio, href: '#portfolio' },
     { label: t.nav.technologies, href: '#technologies' },
     { label: t.nav.contact, href: '#contact' },
   ];
