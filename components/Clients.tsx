@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
+import Industries from './Industries';
 
 const Clients: React.FC = () => {
   const { t } = useLanguage();
@@ -59,6 +60,7 @@ const Clients: React.FC = () => {
           ))}
         </div>
       </div>
+      <Industries />
     </section>
   );
 };

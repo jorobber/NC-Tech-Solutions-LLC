@@ -11,7 +11,6 @@ import Technologies from './components/Technologies';
 import Process from './components/Process';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
-import Industries from './components/Industries';
 import CTA from './components/CTA';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -33,7 +32,6 @@ const App: React.FC = () => {
             <Process />
             <Gallery />
             <Testimonials />
-            <Industries />
             <CTA />
             <Contact />
           </main>

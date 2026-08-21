@@ -21,7 +21,7 @@ const Industries: React.FC = () => {
   const ind = t.industries;
 
   return (
-    <section className="relative py-20 sm:py-24">
+    <div className="relative pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -65,7 +65,7 @@ const Industries: React.FC = () => {
           })}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
