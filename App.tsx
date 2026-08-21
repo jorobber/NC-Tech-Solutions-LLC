@@ -29,8 +29,8 @@ const App: React.FC = () => {
             {/* <WhyChooseUs /> */}
             <Process />
             <Testimonials />
-            <CTA />
             <Technologies />
+            <CTA />
             <Contact />
           </main>
           <Footer />

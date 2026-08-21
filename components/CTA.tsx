@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ArrowRight, Shield } from 'lucide-react';
+import { Shield } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
 
@@ -9,10 +9,6 @@ const CTA: React.FC = () => {
   const { theme } = useTheme();
   const c = t.cta;
 
-  const handleClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <section className="relative py-24 sm:py-32 overflow-hidden">
@@ -49,18 +45,6 @@ const CTA: React.FC = () => {
             theme === 'dark' ? 'text-slate-400' : 'text-slate-500'
           }`}>{c.subtitle}</p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#contact" onClick={handleClick}
-              className="btn-primary inline-flex items-center gap-2 px-10 py-4 rounded-lg text-white font-semibold text-base">
-              {c.btn1} <ArrowRight className="w-5 h-5" />
-            </a>
-            <a href="#contact" onClick={handleClick}
-              className={`btn-outline inline-flex items-center gap-2 px-10 py-4 rounded-lg font-semibold text-base ${
-                theme === 'dark' ? 'text-blue-300' : 'text-blue-600'
-              }`}>
-              {c.btn2}
-            </a>
-          </div>
         </motion.div>
       </div>
     </section>
