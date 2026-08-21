@@ -28,11 +28,11 @@ const App: React.FC = () => {
             <Clients />
             <Services />
             {/* <WhyChooseUs /> */}
-            <Technologies />
             <Process />
             <Gallery />
             <Testimonials />
             <CTA />
+            <Technologies />
             <Contact />
           </main>
           <Footer />
