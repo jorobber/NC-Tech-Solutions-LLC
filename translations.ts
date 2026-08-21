@@ -7,10 +7,10 @@ export const translations = {
       clients: 'Our Clients',
       services: 'Services',
       whyUs: 'Why Us',
-      technologies: 'Our Expertise',
+      technologies: 'Expertise',
       process: 'Process',
       portfolio: 'Portfolio',
-      contact: 'Contact',
+      contact: 'Contact Us',
       getQuote: 'Get a Quote',
     },
     hero: {
